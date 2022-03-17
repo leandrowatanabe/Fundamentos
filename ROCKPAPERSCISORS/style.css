@@ -1,0 +1,58 @@
+body{
+    color:rgb(0,0,255)
+}
+
+header .title{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: auto;
+    margin: 0 25vw 0 25vw;
+}
+
+p{
+    text-align: center;
+    margin: 0 15vw 0 15vw;
+}
+
+#mensagem{
+    text-align: center;
+    color: rgb(100, 0,  0);
+    width: 90vw;
+}
+
+.player{
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 20vw;
+    height: 20vw;
+    margin: 20px;
+}
+
+.jogada{
+    margin: 10px;
+    color: rgb(0, 100,  100);
+}
+
+.reset{
+    margin: 10px 30vw 0 30vw;
+    color: rgb(0, 100,  100);
+}
